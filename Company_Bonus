@@ -1,0 +1,20 @@
+package com.tech;
+
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the year of experience");
+		int year=sc.nextInt();
+		System.out.println("Enter salary");
+		int salary=sc.nextInt();
+		if(year>5) {
+			System.out.println(salary+(salary*0.5f));
+		}
+		else
+		{
+			System.out.println(salary);
+		}
+	}
+}
